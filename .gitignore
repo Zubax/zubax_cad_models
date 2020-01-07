@@ -38,6 +38,7 @@ eagle.epf
 
 *.s#*
 *.b#*
+*.l#*
 
 *.info
 
