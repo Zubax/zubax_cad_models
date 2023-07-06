@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -167,7 +167,7 @@
 </layers>
 <library>
 <packages>
-<package name="MITOHONDRIQUE-TH" urn="urn:adsk.eagle:footprint:4410641/6">
+<package name="MITOCHONDRIK_LV-TH" urn="urn:adsk.eagle:footprint:4410641/6" locally_modified="yes">
 <wire x1="-10.95" y1="14.95" x2="10.95" y2="14.95" width="0.01" layer="21"/>
 <wire x1="10.95" y1="14.95" x2="12.45" y2="13.45" width="0.01" layer="21" curve="-90"/>
 <wire x1="12.45" y1="13.45" x2="12.45" y2="-13.45" width="0.01" layer="21"/>
@@ -484,82 +484,82 @@
 <pad name="39" x="3" y="14" drill="0.8" diameter="1.4"/>
 <text x="0" y="0" size="1.5" layer="21" font="vector" ratio="15" align="center">&gt;NAME</text>
 </package>
-<package name="MITOHONDRIQUE-SMD" urn="urn:adsk.eagle:footprint:7007262/3">
-<wire x1="-10.95" y1="14.95" x2="10.95" y2="14.95" width="0.01" layer="51"/>
-<wire x1="10.95" y1="14.95" x2="12.45" y2="13.45" width="0.01" layer="51" curve="-90"/>
-<wire x1="12.45" y1="13.45" x2="12.45" y2="-13.45" width="0.01" layer="51"/>
-<wire x1="12.45" y1="-13.45" x2="10.95" y2="-14.95" width="0.01" layer="51" curve="-90"/>
+<package name="MITOCHONDRIK_LV-SMD" urn="urn:adsk.eagle:footprint:7007262/3" locally_modified="yes">
 <wire x1="10.95" y1="-14.95" x2="-10.95" y2="-14.95" width="0.01" layer="51"/>
 <wire x1="-10.95" y1="-14.95" x2="-12.45" y2="-13.45" width="0.01" layer="51" curve="-90"/>
 <wire x1="-12.45" y1="-13.45" x2="-12.45" y2="13.45" width="0.01" layer="51"/>
 <wire x1="-12.45" y1="13.45" x2="-10.95" y2="14.95" width="0.01" layer="51" curve="-90"/>
-<wire x1="10.95" y1="14.95" x2="-10.95" y2="14.95" width="0.1" layer="22"/>
-<wire x1="-10.95" y1="14.95" x2="-12.45" y2="13.45" width="0.1" layer="22" curve="90"/>
-<wire x1="-12.45" y1="13.45" x2="-12.45" y2="-13.45" width="0.1" layer="22"/>
-<wire x1="-12.45" y1="-13.45" x2="-10.95" y2="-14.95" width="0.1" layer="22" curve="90"/>
+<wire x1="-10.95" y1="14.95" x2="10.95" y2="14.95" width="0.01" layer="51"/>
+<wire x1="10.95" y1="14.95" x2="12.45" y2="13.45" width="0.01" layer="51" curve="-90"/>
+<wire x1="12.45" y1="13.45" x2="12.45" y2="-13.45" width="0.01" layer="51"/>
+<wire x1="12.45" y1="-13.45" x2="10.95" y2="-14.95" width="0.01" layer="51" curve="-90"/>
 <wire x1="-10.95" y1="-14.95" x2="10.95" y2="-14.95" width="0.1" layer="22"/>
 <wire x1="10.95" y1="-14.95" x2="12.45" y2="-13.45" width="0.1" layer="22" curve="90"/>
 <wire x1="12.45" y1="-13.45" x2="12.45" y2="13.45" width="0.1" layer="22"/>
 <wire x1="12.45" y1="13.45" x2="10.95" y2="14.95" width="0.1" layer="22" curve="90"/>
-<text x="0" y="0" size="1.5" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
-<smd name="40" x="5" y="15" dx="1.2" dy="2" layer="1" rot="R180"/>
-<smd name="41" x="7" y="15" dx="1.2" dy="2" layer="1" rot="R180"/>
-<smd name="42" x="9" y="15" dx="1.2" dy="2" layer="1" rot="R180"/>
-<smd name="1" x="12.5" y="13" dx="1.2" dy="2" layer="1" rot="R270"/>
-<smd name="2" x="12.5" y="11" dx="1.2" dy="2" layer="1" rot="R270"/>
-<smd name="3" x="12.5" y="9" dx="1.2" dy="2" layer="1" rot="R270"/>
-<smd name="4" x="12.5" y="7" dx="1.2" dy="2" layer="1" rot="R270"/>
-<smd name="5" x="12.5" y="5" dx="1.2" dy="2" layer="1" rot="R270"/>
-<smd name="6" x="12.5" y="3" dx="1.2" dy="2" layer="1" rot="R270"/>
-<smd name="7" x="12.5" y="1" dx="1.2" dy="2" layer="1" rot="R270"/>
-<smd name="8" x="12.5" y="-1" dx="1.2" dy="2" layer="1" rot="R270"/>
-<smd name="9" x="12.5" y="-3" dx="1.2" dy="2" layer="1" rot="R270"/>
-<smd name="10" x="12.5" y="-5" dx="1.2" dy="2" layer="1" rot="R270"/>
-<smd name="11" x="12.5" y="-7" dx="1.2" dy="2" layer="1" rot="R270"/>
-<smd name="12" x="12.5" y="-9" dx="1.2" dy="2" layer="1" rot="R270"/>
-<smd name="13" x="12.5" y="-11" dx="1.2" dy="2" layer="1" rot="R270"/>
-<smd name="14" x="12.5" y="-13" dx="1.2" dy="2" layer="1" rot="R270"/>
-<smd name="15" x="9" y="-15" dx="1.2" dy="2" layer="1"/>
-<smd name="16" x="7" y="-15" dx="1.2" dy="2" layer="1"/>
-<smd name="17" x="5" y="-15" dx="1.2" dy="2" layer="1"/>
-<smd name="18" x="-3" y="-15" dx="1.2" dy="2" layer="1"/>
-<smd name="19" x="-5" y="-15" dx="1.2" dy="2" layer="1"/>
-<smd name="20" x="-7" y="-15" dx="1.2" dy="2" layer="1"/>
-<smd name="21" x="-9" y="-15" dx="1.2" dy="2" layer="1"/>
-<smd name="22" x="-12.5" y="-13" dx="1.2" dy="2" layer="1" rot="R90"/>
-<smd name="23" x="-12.5" y="-11" dx="1.2" dy="2" layer="1" rot="R90"/>
-<smd name="24" x="-12.5" y="-9" dx="1.2" dy="2" layer="1" rot="R90"/>
-<smd name="25" x="-12.5" y="-7" dx="1.2" dy="2" layer="1" rot="R90"/>
-<smd name="26" x="-12.5" y="-5" dx="1.2" dy="2" layer="1" rot="R90"/>
-<smd name="27" x="-12.5" y="-3" dx="1.2" dy="2" layer="1" rot="R90"/>
-<smd name="28" x="-12.5" y="-1" dx="1.2" dy="2" layer="1" rot="R90"/>
-<smd name="29" x="-12.5" y="1" dx="1.2" dy="2" layer="1" rot="R90"/>
-<smd name="30" x="-12.5" y="3" dx="1.2" dy="2" layer="1" rot="R90"/>
-<smd name="31" x="-12.5" y="5" dx="1.2" dy="2" layer="1" rot="R90"/>
-<smd name="32" x="-12.5" y="7" dx="1.2" dy="2" layer="1" rot="R90"/>
-<smd name="33" x="-12.5" y="9" dx="1.2" dy="2" layer="1" rot="R90"/>
-<smd name="34" x="-12.5" y="11" dx="1.2" dy="2" layer="1" rot="R90"/>
-<smd name="35" x="-12.5" y="13" dx="1.2" dy="2" layer="1" rot="R90"/>
-<smd name="36" x="-9" y="15" dx="1.2" dy="2" layer="1" rot="R180"/>
-<smd name="37" x="-7" y="15" dx="1.2" dy="2" layer="1" rot="R180"/>
-<smd name="38" x="-5" y="15" dx="1.2" dy="2" layer="1" rot="R180"/>
-<smd name="39" x="-3" y="15" dx="1.2" dy="2" layer="1" rot="R180"/>
+<wire x1="10.95" y1="14.95" x2="-10.95" y2="14.95" width="0.1" layer="22"/>
+<wire x1="-10.95" y1="14.95" x2="-12.45" y2="13.45" width="0.1" layer="22" curve="90"/>
+<wire x1="-12.45" y1="13.45" x2="-12.45" y2="-13.45" width="0.1" layer="22"/>
+<wire x1="-12.45" y1="-13.45" x2="-10.95" y2="-14.95" width="0.1" layer="22" curve="90"/>
+<text x="0" y="0" size="1.5" layer="25" font="vector" ratio="15" rot="R180" align="center">&gt;NAME</text>
+<smd name="17" x="-5" y="-15" dx="1.2" dy="2" layer="1"/>
+<smd name="16" x="-7" y="-15" dx="1.2" dy="2" layer="1"/>
+<smd name="15" x="-9" y="-15" dx="1.2" dy="2" layer="1"/>
+<smd name="14" x="-12.5" y="-13" dx="1.2" dy="2" layer="1" rot="R90"/>
+<smd name="13" x="-12.5" y="-11" dx="1.2" dy="2" layer="1" rot="R90"/>
+<smd name="12" x="-12.5" y="-9" dx="1.2" dy="2" layer="1" rot="R90"/>
+<smd name="11" x="-12.5" y="-7" dx="1.2" dy="2" layer="1" rot="R90"/>
+<smd name="10" x="-12.5" y="-5" dx="1.2" dy="2" layer="1" rot="R90"/>
+<smd name="9" x="-12.5" y="-3" dx="1.2" dy="2" layer="1" rot="R90"/>
+<smd name="8" x="-12.5" y="-1" dx="1.2" dy="2" layer="1" rot="R90"/>
+<smd name="7" x="-12.5" y="1" dx="1.2" dy="2" layer="1" rot="R90"/>
+<smd name="6" x="-12.5" y="3" dx="1.2" dy="2" layer="1" rot="R90"/>
+<smd name="5" x="-12.5" y="5" dx="1.2" dy="2" layer="1" rot="R90"/>
+<smd name="4" x="-12.5" y="7" dx="1.2" dy="2" layer="1" rot="R90"/>
+<smd name="3" x="-12.5" y="9" dx="1.2" dy="2" layer="1" rot="R90"/>
+<smd name="2" x="-12.5" y="11" dx="1.2" dy="2" layer="1" rot="R90"/>
+<smd name="1" x="-12.5" y="13" dx="1.2" dy="2" layer="1" rot="R90"/>
+<smd name="42" x="-9" y="15" dx="1.2" dy="2" layer="1" rot="R180"/>
+<smd name="41" x="-7" y="15" dx="1.2" dy="2" layer="1" rot="R180"/>
+<smd name="40" x="-5" y="15" dx="1.2" dy="2" layer="1" rot="R180"/>
+<smd name="39" x="3" y="15" dx="1.2" dy="2" layer="1" rot="R180"/>
+<smd name="38" x="5" y="15" dx="1.2" dy="2" layer="1" rot="R180"/>
+<smd name="37" x="7" y="15" dx="1.2" dy="2" layer="1" rot="R180"/>
+<smd name="36" x="9" y="15" dx="1.2" dy="2" layer="1" rot="R180"/>
+<smd name="35" x="12.5" y="13" dx="1.2" dy="2" layer="1" rot="R270"/>
+<smd name="34" x="12.5" y="11" dx="1.2" dy="2" layer="1" rot="R270"/>
+<smd name="33" x="12.5" y="9" dx="1.2" dy="2" layer="1" rot="R270"/>
+<smd name="32" x="12.5" y="7" dx="1.2" dy="2" layer="1" rot="R270"/>
+<smd name="31" x="12.5" y="5" dx="1.2" dy="2" layer="1" rot="R270"/>
+<smd name="30" x="12.5" y="3" dx="1.2" dy="2" layer="1" rot="R270"/>
+<smd name="29" x="12.5" y="1" dx="1.2" dy="2" layer="1" rot="R270"/>
+<smd name="28" x="12.5" y="-1" dx="1.2" dy="2" layer="1" rot="R270"/>
+<smd name="27" x="12.5" y="-3" dx="1.2" dy="2" layer="1" rot="R270"/>
+<smd name="26" x="12.5" y="-5" dx="1.2" dy="2" layer="1" rot="R270"/>
+<smd name="25" x="12.5" y="-7" dx="1.2" dy="2" layer="1" rot="R270"/>
+<smd name="24" x="12.5" y="-9" dx="1.2" dy="2" layer="1" rot="R270"/>
+<smd name="23" x="12.5" y="-11" dx="1.2" dy="2" layer="1" rot="R270"/>
+<smd name="22" x="12.5" y="-13" dx="1.2" dy="2" layer="1" rot="R270"/>
+<smd name="21" x="9" y="-15" dx="1.2" dy="2" layer="1"/>
+<smd name="20" x="7" y="-15" dx="1.2" dy="2" layer="1"/>
+<smd name="19" x="5" y="-15" dx="1.2" dy="2" layer="1"/>
+<smd name="18" x="3" y="-15" dx="1.2" dy="2" layer="1"/>
 </package>
 </packages>
 <packages3d>
 <package3d name="MITOHONDRIQUE" urn="urn:adsk.eagle:package:4410646/13" type="model">
 <packageinstances>
-<packageinstance name="MITOHONDRIQUE-TH"/>
+<packageinstance name="MITOCHONDRIK_LV-TH"/>
 </packageinstances>
 </package3d>
 <package3d name="MITOHONDRIQUE-SMD" urn="urn:adsk.eagle:package:7007264/5" type="model">
 <packageinstances>
-<packageinstance name="MITOHONDRIQUE-SMD"/>
+<packageinstance name="MITOCHONDRIK_LV-SMD"/>
 </packageinstances>
 </package3d>
 </packages3d>
 <symbols>
-<symbol name="MITOHONDRIQUE_V0.3">
+<symbol name="MITOCHONDRIK_LV">
 <pin name="5V_OUT" x="-2.54" y="68.58" length="short" direction="pwr"/>
 <pin name="GND" x="-2.54" y="66.04" length="short" direction="pwr"/>
 <pin name="VDC" x="-2.54" y="63.5" length="short" direction="pwr"/>
@@ -611,12 +611,12 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="MITOHONDRIQUE_V0.3" prefix="MODULE">
+<deviceset name="MITOCHONDRIK_LV" prefix="MODULE">
 <gates>
-<gate name="G$1" symbol="MITOHONDRIQUE_V0.3" x="-22.86" y="-27.94"/>
+<gate name="G$1" symbol="MITOCHONDRIK_LV" x="-22.86" y="-27.94"/>
 </gates>
 <devices>
-<device name="-TH" package="MITOHONDRIQUE-TH">
+<device name="-TH" package="MITOCHONDRIK_LV-TH">
 <connects>
 <connect gate="G$1" pin="30" pad="30"/>
 <connect gate="G$1" pin="31" pad="31"/>
@@ -671,50 +671,50 @@
 </technology>
 </technologies>
 </device>
-<device name="-SMD" package="MITOHONDRIQUE-SMD">
+<device name="-SMD" package="MITOCHONDRIK_LV-SMD">
 <connects>
-<connect gate="G$1" pin="30" pad="30"/>
-<connect gate="G$1" pin="31" pad="31"/>
-<connect gate="G$1" pin="32" pad="32"/>
-<connect gate="G$1" pin="35" pad="35"/>
-<connect gate="G$1" pin="5V_OUT" pad="40"/>
-<connect gate="G$1" pin="BEC_ENABLE_OUT" pad="21"/>
-<connect gate="G$1" pin="CAN1_LED" pad="33"/>
-<connect gate="G$1" pin="CAN1_RX" pad="38"/>
-<connect gate="G$1" pin="CAN1_TX" pad="39"/>
-<connect gate="G$1" pin="CAN2_LED" pad="34"/>
-<connect gate="G$1" pin="CAN2_RX" pad="36"/>
-<connect gate="G$1" pin="CAN2_TX" pad="37"/>
-<connect gate="G$1" pin="EN_GATE_OUT" pad="23"/>
-<connect gate="G$1" pin="GAIN_OUT" pad="22"/>
-<connect gate="G$1" pin="GND" pad="41"/>
-<connect gate="G$1" pin="GPIO1" pad="25"/>
-<connect gate="G$1" pin="GPIO2" pad="24"/>
-<connect gate="G$1" pin="OVERCURRENT_PROTECT_ADJ" pad="26"/>
-<connect gate="G$1" pin="PHASE_A" pad="2"/>
-<connect gate="G$1" pin="PHASE_A_CURRENT_SHUNT_N" pad="13"/>
-<connect gate="G$1" pin="PHASE_A_CURRENT_SHUNT_P" pad="14"/>
-<connect gate="G$1" pin="PHASE_A_GATE_HIGH" pad="1"/>
-<connect gate="G$1" pin="PHASE_A_GATE_LOW" pad="3"/>
-<connect gate="G$1" pin="PHASE_A_SOURCE_LOW" pad="4"/>
-<connect gate="G$1" pin="PHASE_B" pad="6"/>
-<connect gate="G$1" pin="PHASE_B_CURRENT_SHUNT_N" pad="15"/>
-<connect gate="G$1" pin="PHASE_B_CURRENT_SHUNT_P" pad="16"/>
-<connect gate="G$1" pin="PHASE_B_GATE_HIGH" pad="5"/>
-<connect gate="G$1" pin="PHASE_B_GATE_LOW" pad="7"/>
-<connect gate="G$1" pin="PHASE_B_SOURCE_LOW" pad="8"/>
-<connect gate="G$1" pin="PHASE_C" pad="10"/>
-<connect gate="G$1" pin="PHASE_C_GATE_HIGH" pad="9"/>
-<connect gate="G$1" pin="PHASE_C_GATE_LOW" pad="11"/>
-<connect gate="G$1" pin="PHASE_C_SOURCE_LOW" pad="12"/>
-<connect gate="G$1" pin="POWER_ENABLE_IN" pad="18"/>
-<connect gate="G$1" pin="RGB_LED_BLUE" pad="29"/>
-<connect gate="G$1" pin="RGB_LED_GREEN" pad="28"/>
-<connect gate="G$1" pin="RGB_LED_RED" pad="27"/>
-<connect gate="G$1" pin="TEMPERATURE_SENSOR" pad="17"/>
-<connect gate="G$1" pin="UART_RX" pad="20"/>
-<connect gate="G$1" pin="UART_TX" pad="19"/>
-<connect gate="G$1" pin="VDC" pad="42"/>
+<connect gate="G$1" pin="30" pad="27"/>
+<connect gate="G$1" pin="31" pad="26"/>
+<connect gate="G$1" pin="32" pad="25"/>
+<connect gate="G$1" pin="35" pad="22"/>
+<connect gate="G$1" pin="5V_OUT" pad="17"/>
+<connect gate="G$1" pin="BEC_ENABLE_OUT" pad="36"/>
+<connect gate="G$1" pin="CAN1_LED" pad="24"/>
+<connect gate="G$1" pin="CAN1_RX" pad="19"/>
+<connect gate="G$1" pin="CAN1_TX" pad="18"/>
+<connect gate="G$1" pin="CAN2_LED" pad="23"/>
+<connect gate="G$1" pin="CAN2_RX" pad="21"/>
+<connect gate="G$1" pin="CAN2_TX" pad="20"/>
+<connect gate="G$1" pin="EN_GATE_OUT" pad="34"/>
+<connect gate="G$1" pin="GAIN_OUT" pad="35"/>
+<connect gate="G$1" pin="GND" pad="16"/>
+<connect gate="G$1" pin="GPIO1" pad="32"/>
+<connect gate="G$1" pin="GPIO2" pad="33"/>
+<connect gate="G$1" pin="OVERCURRENT_PROTECT_ADJ" pad="31"/>
+<connect gate="G$1" pin="PHASE_A" pad="13"/>
+<connect gate="G$1" pin="PHASE_A_CURRENT_SHUNT_N" pad="2"/>
+<connect gate="G$1" pin="PHASE_A_CURRENT_SHUNT_P" pad="1"/>
+<connect gate="G$1" pin="PHASE_A_GATE_HIGH" pad="14"/>
+<connect gate="G$1" pin="PHASE_A_GATE_LOW" pad="12"/>
+<connect gate="G$1" pin="PHASE_A_SOURCE_LOW" pad="11"/>
+<connect gate="G$1" pin="PHASE_B" pad="9"/>
+<connect gate="G$1" pin="PHASE_B_CURRENT_SHUNT_N" pad="42"/>
+<connect gate="G$1" pin="PHASE_B_CURRENT_SHUNT_P" pad="41"/>
+<connect gate="G$1" pin="PHASE_B_GATE_HIGH" pad="10"/>
+<connect gate="G$1" pin="PHASE_B_GATE_LOW" pad="8"/>
+<connect gate="G$1" pin="PHASE_B_SOURCE_LOW" pad="7"/>
+<connect gate="G$1" pin="PHASE_C" pad="5"/>
+<connect gate="G$1" pin="PHASE_C_GATE_HIGH" pad="6"/>
+<connect gate="G$1" pin="PHASE_C_GATE_LOW" pad="4"/>
+<connect gate="G$1" pin="PHASE_C_SOURCE_LOW" pad="3"/>
+<connect gate="G$1" pin="POWER_ENABLE_IN" pad="39"/>
+<connect gate="G$1" pin="RGB_LED_BLUE" pad="28"/>
+<connect gate="G$1" pin="RGB_LED_GREEN" pad="29"/>
+<connect gate="G$1" pin="RGB_LED_RED" pad="30"/>
+<connect gate="G$1" pin="TEMPERATURE_SENSOR" pad="40"/>
+<connect gate="G$1" pin="UART_RX" pad="37"/>
+<connect gate="G$1" pin="UART_TX" pad="38"/>
+<connect gate="G$1" pin="VDC" pad="15"/>
 </connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:7007264/5"/>
