@@ -167,7 +167,7 @@
 </layers>
 <library>
 <packages>
-<package name="MITOCHONDRIK_LV-TH" urn="urn:adsk.eagle:footprint:4410641/6" locally_modified="yes">
+<package name="BD1D50-MITOCHONDRIK-LV-TH" urn="urn:adsk.eagle:footprint:4410641/6" locally_modified="yes">
 <wire x1="-10.95" y1="14.95" x2="10.95" y2="14.95" width="0.01" layer="21"/>
 <wire x1="10.95" y1="14.95" x2="12.45" y2="13.45" width="0.01" layer="21" curve="-90"/>
 <wire x1="12.45" y1="13.45" x2="12.45" y2="-13.45" width="0.01" layer="21"/>
@@ -484,7 +484,7 @@
 <pad name="39" x="3" y="14" drill="0.8" diameter="1.4"/>
 <text x="0" y="0" size="1.5" layer="21" font="vector" ratio="15" align="center">&gt;NAME</text>
 </package>
-<package name="MITOCHONDRIK_LV-SMD" urn="urn:adsk.eagle:footprint:7007262/3" locally_modified="yes">
+<package name="BD1D50-MITOCHONDRIK-LV-SMD" urn="urn:adsk.eagle:footprint:7007262/3" locally_modified="yes">
 <wire x1="10.95" y1="-14.95" x2="-10.95" y2="-14.95" width="0.01" layer="51"/>
 <wire x1="-10.95" y1="-14.95" x2="-12.45" y2="-13.45" width="0.01" layer="51" curve="-90"/>
 <wire x1="-12.45" y1="-13.45" x2="-12.45" y2="13.45" width="0.01" layer="51"/>
@@ -549,17 +549,17 @@
 <packages3d>
 <package3d name="MITOHONDRIQUE" urn="urn:adsk.eagle:package:4410646/13" type="model">
 <packageinstances>
-<packageinstance name="MITOCHONDRIK_LV-TH"/>
+<packageinstance name="BD1D50-MITOCHONDRIK-LV-TH"/>
 </packageinstances>
 </package3d>
 <package3d name="MITOHONDRIQUE-SMD" urn="urn:adsk.eagle:package:7007264/5" type="model">
 <packageinstances>
-<packageinstance name="MITOCHONDRIK_LV-SMD"/>
+<packageinstance name="BD1D50-MITOCHONDRIK-LV-SMD"/>
 </packageinstances>
 </package3d>
 </packages3d>
 <symbols>
-<symbol name="MITOCHONDRIK_LV">
+<symbol name="BD1D50-MITOCHONDRIK-LV">
 <pin name="5V_OUT" x="-2.54" y="68.58" length="short" direction="pwr"/>
 <pin name="GND" x="-2.54" y="66.04" length="short" direction="pwr"/>
 <pin name="VDC" x="-2.54" y="63.5" length="short" direction="pwr"/>
@@ -611,12 +611,12 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="MITOCHONDRIK_LV" prefix="MODULE">
+<deviceset name="BD1D50-MITOCHONDRIK-LV" prefix="MODULE">
 <gates>
-<gate name="G$1" symbol="MITOCHONDRIK_LV" x="-22.86" y="-27.94"/>
+<gate name="G$1" symbol="BD1D50-MITOCHONDRIK-LV" x="-22.86" y="-27.94"/>
 </gates>
 <devices>
-<device name="-TH" package="MITOCHONDRIK_LV-TH">
+<device name="-TH" package="BD1D50-MITOCHONDRIK-LV-TH">
 <connects>
 <connect gate="G$1" pin="30" pad="30"/>
 <connect gate="G$1" pin="31" pad="31"/>
@@ -671,7 +671,7 @@
 </technology>
 </technologies>
 </device>
-<device name="-SMD" package="MITOCHONDRIK_LV-SMD">
+<device name="-SMD" package="BD1D50-MITOCHONDRIK-LV-SMD">
 <connects>
 <connect gate="G$1" pin="30" pad="27"/>
 <connect gate="G$1" pin="31" pad="26"/>
